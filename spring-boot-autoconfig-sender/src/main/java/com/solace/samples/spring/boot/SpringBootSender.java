@@ -34,7 +34,7 @@ public class SpringBootSender {
 		jmsTemplate.setPubSubDomain(false);
 	}
 
-	@Value("SpringTestQueue")
+	@Value("first")
 	private String queueName;
 
 	@Scheduled(fixedRate = 5000)
